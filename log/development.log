@@ -1,0 +1,1255 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-10 10:07:43 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/railties-4.1.7/lib/rails/templates/rails/welcome/index.html.erb (7.0ms)
+Completed 200 OK in 36ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2014-11-10 10:34:16 +0100
+Processing by HomeController#welcome as HTML
+  Rendered home/welcome.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 57ms
+
+ActionView::Template::Error (couldn't find file 'turbolinks'
+  (in C:/McKinsey/Ruby on Rails/rails/ProyectoRails/app/assets/javascripts/application.js:15)):
+    3: <head>
+    4:   <title>ProyectoRails</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__938459902_56791416'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (16.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (54.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2014-11-10 10:36:45 +0100
+Processing by HomeController#welcome as HTML
+  Rendered home/welcome.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 179ms (Views: 178.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 10:36:45 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 10:36:45 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 10:36:45 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 10:36:45 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 10:36:45 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 10:36:45 +0100
+
+
+Started GET "/home" for 127.0.0.1 at 2014-11-10 10:44:12 +0100
+Processing by HomeController#welcome as HTML
+  Rendered home/welcome.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 10:44:12 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 10:44:12 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 10:44:12 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 10:44:12 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 10:44:12 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 10:44:12 +0100
+
+
+Started GET "/home" for 127.0.0.1 at 2014-11-10 10:44:14 +0100
+Processing by HomeController#welcome as HTML
+  Rendered home/welcome.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 10:44:14 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 10:44:14 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 10:44:14 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 10:44:14 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 10:44:14 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 10:44:14 +0100
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2014-11-10 10:51:57 +0100
+Processing by HomeController#contant as HTML
+  Rendered home/contant.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 10:51:57 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 10:51:57 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 10:51:57 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 10:51:57 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 10:51:57 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 10:51:57 +0100
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2014-11-10 10:54:05 +0100
+Processing by HomeController#contant as HTML
+  Rendered home/contant.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 44ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 10:54:05 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 10:54:05 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 10:54:05 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 10:54:05 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 10:54:05 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 10:54:05 +0100
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2014-11-10 10:54:28 +0100
+
+ActionController::RoutingError (No route matches [GET] "/home/contact"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (20.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (94.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-11-10 10:54:33 +0100
+Processing by HomeController#contant as HTML
+  Rendered home/contant.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 10:54:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 10:54:33 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 10:54:33 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 10:54:33 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 10:54:33 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 10:54:33 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 10:54:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 10:54:33 +0100
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 10:58:17 +0100
+
+ActionController::RoutingError (No route matches [GET] "/locations"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-10 10:58:18 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/railties-4.1.7/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 10:58:52 +0100
+
+ActionController::RoutingError (No route matches [GET] "/locations"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-11-10 10:58:55 +0100
+Processing by HomeController#contant as HTML
+  Rendered home/contant.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 78ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 10:58:56 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 10:58:56 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 10:58:56 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 10:58:56 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 10:58:56 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 10:58:56 +0100
+
+
+Started GET "/home" for 127.0.0.1 at 2014-11-10 10:58:59 +0100
+Processing by HomeController#welcome as HTML
+  Rendered home/welcome.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 10:58:59 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 10:58:59 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 10:58:59 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 10:58:59 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 10:58:59 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 10:59:00 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-10 11:02:49 +0100
+Processing by HomeController#welcome as HTML
+  Rendered home/welcome.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 11:02:49 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 11:02:49 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 11:02:49 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 11:02:49 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 11:02:49 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 11:02:49 +0100
+  [1m[36m (0.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (15.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateLocations (20141110101624)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (15.6ms)[0m  CREATE TABLE "locations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141110101624"]]
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+  [1m[35mLocation Load (0.0ms)[0m  SELECT "locations".* FROM "locations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddCityColumnToLocation (20141110111403)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "location" ADD "country" varchar(255)[0m
+SQLite3::SQLException: no such table: location: ALTER TABLE "location" ADD "country" varchar(255)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (15.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateLocations (20141110101624)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "locations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141110101624"]]
+  [1m[35m (0.0ms)[0m  commit transaction
+Migrating to AddCityColumnToLocation (20141110111403)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "location" ADD "country" varchar(255)
+SQLite3::SQLException: no such table: location: ALTER TABLE "location" ADD "country" varchar(255)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36m (171.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (15.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateLocations (20141110101624)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "locations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141110101624"]]
+  [1m[35m (0.0ms)[0m  commit transaction
+Migrating to AddCityColumnToLocation (20141110111403)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "location" ADD "country" varchar(255)
+SQLite3::SQLException: no such table: location: ALTER TABLE "location" ADD "country" varchar(255)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36m (0.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (15.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateLocations (20141110101624)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "locations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141110101624"]]
+  [1m[35m (15.6ms)[0m  commit transaction
+Migrating to AddCityColumnToLocation (20141110111403)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "locations" ADD "country" varchar(255)
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "locations" ADD "city" varchar(255)[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "locations" ADD "zip_code" integer
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "locations" ADD "street" varchar(255)[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "locations" ADD "description" varchar(255)
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141110111403"]]
+  [1m[35m (15.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (15.6ms)[0m  INSERT INTO "locations" ("city", "created_at", "updated_at") VALUES (?, ?, ?)  [["city", "Madrid"], ["created_at", "2014-11-10 11:58:59.180170"], ["updated_at", "2014-11-10 11:58:59.180170"]]
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mLocation Load (0.0ms)[0m  SELECT "locations".* FROM "locations"
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+  [1m[35mLocation Load (0.0ms)[0m  SELECT "locations".* FROM "locations"
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+  [1m[35mLocation Load (0.0ms)[0m  SELECT "locations".* FROM "locations"
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "locations" ("city", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["city", "Madrid"], ["created_at", "2014-11-10 12:00:15.856930"], ["updated_at", "2014-11-10 12:00:15.856930"]]
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "locations" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-11-10 12:00:49.506193"], ["name", "HHome"], ["updated_at", "2014-11-10 12:00:49.506193"]]
+  [1m[36m (15.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "locations" ("city", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["city", "Barcelona"], ["created_at", "2014-11-10 12:01:24.505857"], ["name", "HHome"], ["updated_at", "2014-11-10 12:01:24.505857"]]
+  [1m[35m (188.2ms)[0m  commit transaction
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"   ORDER BY "locations"."id" ASC LIMIT 1
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (15.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateLocations (20141110101624)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "locations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141110101624"]]
+  [1m[35m (0.0ms)[0m  commit transaction
+Migrating to AddCityColumnToLocation (20141110111403)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (15.6ms)[0m  ALTER TABLE "locations" ADD "country" varchar(255)
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "locations" ADD "city" varchar(255)[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "locations" ADD "zip_code" integer
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "locations" ADD "street" varchar(255)[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "locations" ADD "description" varchar(255)
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141110111403"]]
+  [1m[35m (15.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = 1  ORDER BY "locations"."id" ASC LIMIT 1[0m
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = 2  ORDER BY "locations"."id" ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "locations"[0m
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+  [1m[35mLocation Load (0.0ms)[0m  SELECT "locations".* FROM "locations"
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+  [1m[35mLocation Load (0.0ms)[0m  SELECT "locations".* FROM "locations"
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mLocation Load (0.0ms)[0m  SELECT "locations".* FROM "locations"
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 0]]
+  [1m[36m (15.6ms)[0m  [1mDROP TABLE "locations"[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "locations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime, "country" varchar(255), "city" varchar(255), "zip_code" integer, "street" varchar(255), "description" varchar(255)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "locations" ("city", "country", "created_at", "name", "updated_at", "zip_code") VALUES (?, ?, ?, ?, ?, ?)  [["city", "Barcelona"], ["country", "Spain"], ["created_at", "2014-11-10 14:09:09.452641"], ["name", "Home"], ["updated_at", "2014-11-10 14:09:09.452641"], ["zip_code", 487485]]
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (15.6ms)[0m  [1mINSERT INTO "locations" ("city", "country", "created_at", "name", "updated_at", "zip_code") VALUES (?, ?, ?, ?, ?, ?)[0m  [["city", "Madrid"], ["country", "Spain"], ["created_at", "2014-11-10 14:09:09.452641"], ["name", "Work"], ["updated_at", "2014-11-10 14:09:09.452641"], ["zip_code", 28032]]
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (15.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateLocations (20141110101624)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "locations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141110101624"]]
+  [1m[35m (0.0ms)[0m  commit transaction
+Migrating to AddCityColumnToLocation (20141110111403)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "locations" ADD "country" varchar(255)
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "locations" ADD "city" varchar(255)[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "locations" ADD "zip_code" integer
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "locations" ADD "street" varchar(255)[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "locations" ADD "description" varchar(255)
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141110111403"]]
+  [1m[35m (15.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"  WHERE "locations"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+  [1m[36m (171.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (15.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateLocations (20141110101624)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "locations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141110101624"]]
+  [1m[35m (0.0ms)[0m  commit transaction
+Migrating to AddCityColumnToLocation (20141110111403)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (15.6ms)[0m  ALTER TABLE "locations" ADD "country" varchar(255)
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "locations" ADD "city" varchar(255)[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "locations" ADD "zip_code" integer
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "locations" ADD "street" varchar(255)[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "locations" ADD "description" varchar(255)
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141110111403"]]
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (15.6ms)[0m  [1mDROP TABLE "locations"[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "locations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime, "country" varchar(255), "city" varchar(255), "zip_code" integer, "street" varchar(255), "description" varchar(255)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "locations" ("city", "country", "created_at", "name", "updated_at", "zip_code") VALUES (?, ?, ?, ?, ?, ?)  [["city", "Barcelona"], ["country", "Spain"], ["created_at", "2014-11-10 14:11:40.544924"], ["name", "Home"], ["updated_at", "2014-11-10 14:11:40.544924"], ["zip_code", 487485]]
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "locations" ("city", "country", "created_at", "name", "updated_at", "zip_code") VALUES (?, ?, ?, ?, ?, ?)[0m  [["city", "Madrid"], ["country", "Spain"], ["created_at", "2014-11-10 14:11:40.544924"], ["name", "Work"], ["updated_at", "2014-11-10 14:11:40.544924"], ["zip_code", 28032]]
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT "locations".* FROM "locations"[0m
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 15:23:12 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocationsController#index as HTML
+  Rendered locations/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 24ms
+
+SyntaxError (C:/McKinsey/Ruby on Rails/rails/ProyectoRails/proyectorails/app/views/locations/index.html.erb:7: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/McKinsey/Ruby on Rails/rails/ProyectoRails/proyectorails/app/views/locations/index.html.erb:9: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/locations/index.html.erb:7: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/locations/index.html.erb:9: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (56.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 15:24:51 +0100
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"   ORDER BY "locations"."id" DESC LIMIT 10
+  Rendered locations/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 21ms
+
+SyntaxError (C:/McKinsey/Ruby on Rails/rails/ProyectoRails/proyectorails/app/views/locations/index.html.erb:7: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/McKinsey/Ruby on Rails/rails/ProyectoRails/proyectorails/app/views/locations/index.html.erb:9: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/locations/index.html.erb:7: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/locations/index.html.erb:9: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 15:24:55 +0100
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (16.6ms)[0m  [1mSELECT  "locations".* FROM "locations"   ORDER BY "locations"."id" DESC LIMIT 10[0m
+  Rendered locations/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 30ms
+
+SyntaxError (C:/McKinsey/Ruby on Rails/rails/ProyectoRails/proyectorails/app/views/locations/index.html.erb:7: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/McKinsey/Ruby on Rails/rails/ProyectoRails/proyectorails/app/views/locations/index.html.erb:9: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/locations/index.html.erb:7: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/locations/index.html.erb:9: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.0ms)
+
+
+Started GET "/location" for 127.0.0.1 at 2014-11-10 15:24:57 +0100
+
+ActionController::RoutingError (No route matches [GET] "/location"):
+  actionpack (4.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.7) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.7) lib/rails/engine.rb:514:in `call'
+  railties (4.1.7) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 15:25:40 +0100
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"   ORDER BY "locations"."id" DESC LIMIT 10
+  Rendered locations/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 12ms
+
+SyntaxError (C:/McKinsey/Ruby on Rails/rails/ProyectoRails/proyectorails/app/views/locations/index.html.erb:7: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/McKinsey/Ruby on Rails/rails/ProyectoRails/proyectorails/app/views/locations/index.html.erb:9: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/locations/index.html.erb:7: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/locations/index.html.erb:9: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 15:26:12 +0100
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"   ORDER BY "locations"."id" DESC LIMIT 10[0m
+  Rendered locations/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 148ms (Views: 145.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 15:26:12 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 15:26:12 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 15:26:12 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 15:26:12 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 15:26:12 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 15:26:12 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 15:26:12 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 15:26:12 +0100
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 15:28:23 +0100
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (2.0ms)[0m  SELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" DESC LIMIT 10
+  Rendered locations/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 51ms (Views: 48.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 15:28:23 +0100
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 15:28:23 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 15:28:23 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 15:28:23 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 15:28:23 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 15:28:23 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 15:28:23 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 15:28:23 +0100
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 15:28:33 +0100
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" ASC LIMIT 10[0m
+  Rendered locations/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 54ms (Views: 50.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 15:28:33 +0100
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 15:28:33 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 15:28:33 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 15:28:33 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 15:28:33 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 15:28:33 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 15:28:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 15:28:33 +0100
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 15:28:49 +0100
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" DESC LIMIT 10
+  Rendered locations/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 51ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 15:28:49 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 15:28:49 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 15:28:49 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 15:28:49 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 15:28:49 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 15:28:49 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 15:28:49 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 15:28:49 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (171.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (15.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateLocations (20141110101624)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "locations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141110101624"]]
+  [1m[35m (0.0ms)[0m  commit transaction
+Migrating to AddCityColumnToLocation (20141110111403)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (15.6ms)[0m  ALTER TABLE "locations" ADD "country" varchar(255)
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "locations" ADD "city" varchar(255)[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "locations" ADD "zip_code" integer
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "locations" ADD "street" varchar(255)[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "locations" ADD "description" varchar(255)
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141110111403"]]
+  [1m[35m (15.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 15:30:55 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" DESC LIMIT 10
+  Rendered locations/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 101ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 15:30:55 +0100
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 15:30:55 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 15:30:55 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 15:30:55 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 15:30:55 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 15:30:55 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 15:30:55 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 15:30:56 +0100
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 15:31:02 +0100
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" DESC LIMIT 10[0m
+  Rendered locations/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 55ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 15:31:02 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 15:31:02 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 15:31:02 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 15:31:02 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 15:31:02 +0100
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 15:31:02 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 15:31:02 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 15:31:02 +0100
+  [1m[36m (15.6ms)[0m  [1mDROP TABLE "locations"[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "locations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime, "country" varchar(255), "city" varchar(255), "zip_code" integer, "street" varchar(255), "description" varchar(255)) 
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "locations" ("city", "country", "created_at", "name", "updated_at", "zip_code") VALUES (?, ?, ?, ?, ?, ?)  [["city", "Barcelona"], ["country", "Spain"], ["created_at", "2014-11-10 14:31:19.680822"], ["name", "Home"], ["updated_at", "2014-11-10 14:31:19.680822"], ["zip_code", 487485]]
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "locations" ("city", "country", "created_at", "name", "updated_at", "zip_code") VALUES (?, ?, ?, ?, ?, ?)[0m  [["city", "Madrid"], ["country", "Spain"], ["created_at", "2014-11-10 14:31:19.680822"], ["name", "Work"], ["updated_at", "2014-11-10 14:31:19.680822"], ["zip_code", 28032]]
+  [1m[35m (15.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "locations" ("city", "country", "created_at", "name", "updated_at", "zip_code") VALUES (?, ?, ?, ?, ?, ?)  [["city", "Miami"], ["country", "USA"], ["created_at", "2014-11-10 14:31:19.696422"], ["name", "Beach"], ["updated_at", "2014-11-10 14:31:19.696422"], ["zip_code", 90021]]
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 15:31:31 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" DESC LIMIT 10
+  Rendered locations/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 110ms (Views: 107.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 15:31:32 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 15:31:32 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 15:31:32 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 15:31:32 +0100
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 15:31:32 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 15:31:32 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 15:31:32 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 15:31:32 +0100
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 15:31:45 +0100
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" ASC LIMIT 10[0m
+  Rendered locations/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 62ms (Views: 59.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 15:31:46 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 15:31:46 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 15:31:46 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 15:31:46 +0100
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 15:31:46 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 15:31:46 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 15:31:46 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 15:31:46 +0100
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 15:51:06 +0100
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" ASC LIMIT 10
+  Rendered locations/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 58ms (Views: 55.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 15:51:06 +0100
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 15:51:06 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 15:51:06 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 15:51:06 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 15:51:06 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 15:51:06 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 15:51:06 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 15:51:06 +0100
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 15:51:10 +0100
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" ASC LIMIT 10[0m
+  Rendered locations/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 56ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 15:51:10 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 15:51:10 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 15:51:10 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 15:51:10 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 15:51:10 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 15:51:10 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 15:51:10 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 15:51:10 +0100
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 15:57:58 +0100
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (0.0ms)[0m  SELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" ASC LIMIT 10
+  Rendered locations/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 51ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 15:57:58 +0100
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 15:57:58 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 15:57:58 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 15:57:58 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 15:57:58 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 15:57:58 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 15:57:58 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 15:57:58 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 15:57:58 +0100
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 16:02:14 +0100
+Processing by LocationsController#index as HTML
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `last_created' for #<Class:0x5307270>):
+  app/controllers/locations_controller.rb:3:in `index'
+
+
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.1.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.0ms)
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 16:04:57 +0100
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" DESC LIMIT 10[0m
+  Rendered locations/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 54ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 16:04:57 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 16:04:57 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 16:04:57 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 16:04:57 +0100
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 16:04:57 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 16:04:57 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 16:04:57 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 16:04:57 +0100
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 16:06:53 +0100
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (1.0ms)[0m  SELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" DESC LIMIT 10
+  Rendered locations/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 60ms (Views: 58.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 16:06:53 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 16:06:53 +0100
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 16:06:53 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 16:06:53 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 16:06:53 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 16:06:53 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 16:06:53 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 16:06:53 +0100
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 16:07:59 +0100
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" DESC LIMIT 10[0m
+  Rendered locations/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 94ms (Views: 93.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 16:08:00 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 16:08:00 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 16:08:00 +0100
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 16:08:00 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 16:08:00 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 16:08:00 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 16:08:00 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 16:08:00 +0100
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 16:08:48 +0100
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (2.0ms)[0m  SELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" DESC LIMIT 10
+  Rendered locations/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 89ms (Views: 87.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 16:08:48 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 16:08:48 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 16:08:48 +0100
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 16:08:48 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 16:08:48 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 16:08:48 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 16:08:48 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 16:08:48 +0100
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 16:08:50 +0100
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (1.0ms)[0m  [1mSELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" DESC LIMIT 10[0m
+  Rendered locations/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 65ms (Views: 63.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 16:08:50 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 16:08:50 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 16:08:50 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 16:08:50 +0100
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 16:08:50 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 16:08:50 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 16:08:50 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 16:08:50 +0100
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 16:09:12 +0100
+Processing by LocationsController#index as HTML
+  [1m[35mLocation Load (2.0ms)[0m  SELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" DESC LIMIT 2
+  Rendered locations/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 57ms (Views: 52.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 16:09:12 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 16:09:12 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 16:09:13 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 16:09:13 +0100
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 16:09:13 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 16:09:13 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 16:09:13 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 16:09:13 +0100
+
+
+Started GET "/locations" for 127.0.0.1 at 2014-11-10 16:09:18 +0100
+Processing by LocationsController#index as HTML
+  [1m[36mLocation Load (0.0ms)[0m  [1mSELECT  "locations".* FROM "locations"   ORDER BY "locations"."created_at" DESC LIMIT 10[0m
+  Rendered locations/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 55ms (Views: 52.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/locations.css?body=1" for 127.0.0.1 at 2014-11-10 16:09:18 +0100
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-11-10 16:09:18 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-10 16:09:18 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-10 16:09:18 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-10 16:09:18 +0100
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-11-10 16:09:18 +0100
+
+
+Started GET "/assets/locations.js?body=1" for 127.0.0.1 at 2014-11-10 16:09:18 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-10 16:09:18 +0100
